@@ -1,0 +1,26 @@
+The dataset contains 998,070 rows and 13 columns.
+Each row represents one snapshot of sensor data at a certain time step. 
+The sample rate is 2 Hz (one record per 0.5 seconds).
+Each measurement session (between one and six hours long) is unique and identified by 'profile_id', ensuring session independence.
+
+Feature Set:
+1. Environmental Conditions:
+a) ambient (temperature near stator)
+b) coolant (coolant outflow temperature)
+
+2. Voltage and Current Inputs:
+a) u_d and u_q (voltage components)
+b) i_d and i_q (current components)
+
+3. Temperature Measurements:
+a) pm (permanent magnet surface temperature)
+b) stator_yoke
+c) stator_tooth
+d) stator_winding
+
+4. profile_id (session ID for distinguishing measurements)
+
+5. torque.
+
+Target variable:
+1. motor_speed
