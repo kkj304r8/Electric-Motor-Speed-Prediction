@@ -1,2 +1,3 @@
-# Electric-Motor-Speed-Prediction
-Data Science Project
+Data Science Project: Electric-Motor-Speed-Prediction
+
+ADD DESCRIPTION HERE
